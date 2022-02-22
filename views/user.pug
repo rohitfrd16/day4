@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1= title
+  p Add you book
+  form(name="add-estimation", method="post")
+        div.input
+          
+          
+            input(type="text", name="firstName" placeholder = "Enter name")
+        div.actions
+            input(type="submit", value="add")
