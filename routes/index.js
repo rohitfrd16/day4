@@ -7,3 +7,14 @@ router.get('/', function(req, res, next) {
 });
 
 module.exports = router;
+
+// module.exports.getByAge = (req, res) => {
+//   // It was earlier defined as a static method inside methods/index.js
+//   User.findByAge(20, (err, data) => {
+//     if (err)
+//       return res
+//         .status(HttpStatus.BAD_REQUEST)
+//         .json({ message: "Age Mismatch" });
+//     res.status(HttpStatus.OK).json(data);
+//   });
+// };
